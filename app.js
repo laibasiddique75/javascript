@@ -19,16 +19,16 @@
     window.onload = greetVisitor;
 
 
-// alert("Error! please enter a valid password");
+alert("Error! please enter a valid password");
 
-// alert("Welcome to JS Land...\n Happy Coding!");
+ alert("Welcome to JS Land...\n Happy Coding!");
 
-//  alert("Welcome to JS Land...");
+ alert("Welcome to JS Land...");
 
-// alert(" Happy Coding! \n prevent this page from creating additional dialogs");
+ alert(" Happy Coding! \n prevent this page from creating additional dialogs");
 
-// var message =  "Hello... I can run JS through my web browser's console"
-// console.log(message);
+var message =  "Hello... I can run JS through my web browser's console"
+ console.log(message);
  
 
-//  alert("Hii connections");
+  alert("Hii connections");
