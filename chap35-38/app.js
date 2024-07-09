@@ -155,6 +155,79 @@
 
 // displayCounting();
 
+
+// Q no 8
+
+// function calculateHypotenus(){
+// function calculateSquare(x){
+//  return x*x
+// }
+
+// var base = +prompt("Enter the base of a right angle triangle")
+// var perpendicular = +prompt("Enter the perpendicular of a right angle triangle")
+
+// var hypotenuse = Math.sqrt(calculateSquare(base) + calculateSquare(perpendicular))
+
+// alert("The hypotenuse of a right angle triangle with base" +base+ "and perpendicular" + perpendicular + "is" + hypotenuse)
+// }
+
+// calculateHypotenus();
+
+
+
+
+// Q no 9
+
+// function calcAreaAsValues(width, height) {
+//     const area = width * height;
+//     return area;
+// }
+
+// function calcAreaAsVariables(width, height) {
+//     const area = width * height;
+//     return area;
+// }
+
+// function calculateAreaValues() {
+//     // Prompt the user to enter width and height as values
+//     const width = parseFloat(prompt("Enter the width of the rectangle (values):"));
+//     const height = parseFloat(prompt("Enter the height of the rectangle (values):"));
+
+//     // Check if the inputs are valid numbers
+//     if (isNaN(width) || isNaN(height) || width <= 0 || height <= 0) {
+//         alert("Please enter valid width and height.");
+//         return;
+//     }
+
+//     // Calculate the area using values
+//     const area = calcAreaAsValues(width, height);
+
+//     // Display the result in the browser
+//     document.write(`The area of the rectangle (values) is ${area}`);
+// }
+
+// function calculateAreaVariables() {
+//     // Prompt the user to enter width and height as variables
+//     const width = parseFloat(prompt("Enter the width of the rectangle (variables):"));
+//     const height = parseFloat(prompt("Enter the height of the rectangle (variables):"));
+
+//     // Check if the inputs are valid numbers
+//     if (isNaN(width) || isNaN(height) || width <= 0 || height <= 0) {
+//         alert("Please enter valid width and height.");
+//         return;
+//     }
+
+//     // Calculate the area using variables
+//     const area = calcAreaAsVariables(width, height);
+
+//     // Display the result in the browser
+//     document.write(`The area of the rectangle (variables) is ${area}`);
+// }
+
+// calculateAreaVariables();
+
+
+
 // Q no 10
 // function isPalindrome(str) {
 //     let cleanedStr = str.replace(/[^A-Za-z0-9]/g, '').toLowerCase();
@@ -175,6 +248,112 @@
 
 // Q no 11
 
+// function capitalizeFirstLetter(str) {
+//     const words = str.split(' ');
+
+//     const capitalizedWords = words.map(word => {
+//         return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+//     });
+
+//     return capitalizedWords.join(' ');
+// }
+
+// function capitalizeWords() {
+    
+//     const inputStr = prompt("Enter a string:");
+
+//     const result = capitalizeFirstLetter(inputStr);
+
+//     document.write(`Result: ${result}`);
+// }
+// capitalizeWords();
+
+
+// Q no 12
+
+// function getLongestWord(str) {
+    
+//     const words = str.split(' ');
+
+//     let longestWord = "";
+
+//     for (let word of words) {
+//         if (word.length > longestWord.length) {
+//             longestWord = word;
+//         }
+//     }
+
+//     return longestWord;
+// }
+
+// function findLongestWord() {
+//     const inputStr = prompt("Enter a string:");
+
+//     const longestWord = getLongestWord(inputStr);
+
+//     document.write( `The longest word is: ${longestWord}`);
+// }
+// findLongestWord();
+
+// Q no 13
+// function countOccurrences(str, letter) {
+//     let count = 0;
+
+//     for (let char of str) {
+//         if (char === letter) {
+//             count++;
+//         }
+//     }
+
+//     return count;
+// }
+
+// function countLetterOccurrences() {
+   
+//     const inputStr = prompt("Enter a string:");
+
+//     const inputLetter = prompt("Enter a letter to count its occurrences:");
+
+//     if (inputLetter.length !== 1) {
+//         alert("Please enter a single letter.");
+//         return;
+//     }
+//     const occurrences = countOccurrences(inputStr, inputLetter);
+//     document.write(`The letter '${inputLetter}' occurs ${occurrences} times in the string '${inputStr}'.`);
+// }
+
+// countLetterOccurrences();
+
+// Q no 14
+
+// function calcCircumference(radius) {
+    
+//     const circumference = 2 * Math.PI * radius;
+//     return circumference.toFixed(2); // Rounded to 2 decimal places
+// }
+
+// function calcArea(radius) {
+    
+//     const area = Math.PI * Math.pow(radius, 2);
+//     return area.toFixed(2); // Rounded to 2 decimal places
+// }
+
+// function calculateProperties() {
+   
+//     const radius = parseFloat(prompt("Enter the radius of the circle:"));
+
+    
+//     if (isNaN(radius) || radius <= 0) {
+//         alert("Please enter a valid radius.");
+//         return;
+//     }
+//     const circumference = calcCircumference(radius);
+//     const area = calcArea(radius);
+
+//     document.write(`The circumference is ${circumference}`);
+//     document.write(`The area is ${area}`);
+// }
+// calculateProperties();
 
 
 
